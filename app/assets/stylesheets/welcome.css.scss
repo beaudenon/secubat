@@ -1,3 +1,72 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#main_container {
+  // background-image: url(image-path("site/fond.jpg"));
+  background-repeat: repeat-x;
+}
+
+a {
+  &:hover {
+    text-decoration:none;
+  }
+}
+
+#logo_container {
+  position: relative;
+  .images_hover {
+    position: absolute;
+    top: 230px;
+    text-align: center;
+    left: 50px;
+    width: 132px;
+    img {
+      margin-bottom: 15px;
+      width: 132px;
+      border-radius:10px;
+      border: 2px #CCCCCC solid;
+    }
+  }
+}
+
+.header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+#yield_container {
+  .middle-container {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  h4 {
+    font-style: italic;
+    font-weight: bold;
+  }
+  p {
+    text-align: justify;
+  }
+  p, li {
+    font-size: 12px;
+  }
+  .infos {
+    font-weight: bold;
+    font-size: 10px;
+    font-weight: bold;
+    a {
+      color: orangered;
+      &:hover {
+        text-decoration: none;
+        background-color: white;
+      }
+    }
+  }
+  .texts {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+  }
+}
