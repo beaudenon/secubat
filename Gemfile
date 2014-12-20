@@ -49,6 +49,9 @@ gem 'devise'
 gem 'devise-i18n-views'
 gem "i18n-js"
 
+gem 'pdfkit'
+gem 'wkhtmltopdf-binary'
+
 group :development do
   gem "html2haml"
 end
