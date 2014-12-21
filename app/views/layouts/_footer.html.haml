@@ -2,9 +2,6 @@
   .row
     .col-md-12.text-center
       = "Copyright © SECUBAT #{Date.current.year}"
-      \|
-      = link_to root_path(:format => "pdf"), :id => :pdf_link do
-        = "Version PDF"
-      \|
-      = link_to index_path(:format => "pdf"), :id => :pdf_link do
-        = "Version PDF"
+      #pdf_link
+        \|
+        = link_to "Version PDF", index_path(:format => "pdf")
