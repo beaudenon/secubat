@@ -100,11 +100,17 @@ a {
     margin-top: 25px;
   }
   p, li {
-    font-size: 10px;
-    line-height: 18px;
+    font-size: 11px;
+    line-height: 19px;
+  }
+  h3 {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bold;
   }
   h4 {
     font-size: 12px;
+    font-style: normal;
   }
   #logo_container {
     position: relative;
