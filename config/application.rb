@@ -24,6 +24,6 @@ module RailsSkeleton
     I18n.available_locales= [:fr, :en]
     config.i18n.fallbacks = true
     config.i18n.default_locale = :fr
-    config.middleware.use "PDFKit::Middleware", :print_media_type => false
+    config.middleware.use "PDFKit::Middleware", :print_media_type => false, :margin_top=>"0.2in", :margin_right=>"0.2in", :margin_bottom=>"0.2in", :margin_left=>"0.2in"
   end
 end

@@ -1,15 +1,14 @@
 #booklet.row
   .col-md-3{:style => "width: 295px; float: left; padding: 0px;"}
     #logo_container
-      = link_to root_path do
-        .header_logo
-          = image_tag("header/logo.png", :alt => "logo Secubat", :width => 280)
-        .images_hover
-          = image_tag("lignes-de-vie/lignes-de-vie_01.jpg", :alt => "Secubat")
-          = image_tag("garde-corps/garde-corps_01.jpg", :alt => "Secubat")
-          = image_tag("ancrages/ancrages_03.jpg", :alt => "Secubat")
-          = image_tag("surmesure/solaire.jpg", :alt => "Secubat")
-  .col-md-9{:style => "width: 375px; float: left; margin: 0px;"}
+      .header_logo
+        = image_tag("header/logo.png", :alt => "logo Secubat", :width => 280)
+      .images_hover
+        = image_tag("lignes-de-vie/lignes-de-vie_01.jpg", :alt => "Secubat")
+        = image_tag("garde-corps/garde-corps_01.jpg", :alt => "Secubat")
+        = image_tag("ancrages/ancrages_03.jpg", :alt => "Secubat")
+        = image_tag("surmesure/solaire.jpg", :alt => "Secubat")
+  .col-md-9{:style => "width: 425px; float: left; margin: 0px;"}
     .row
       .infos.col-md-12.text-center{:style => "padding: 0px;"}
         %h4

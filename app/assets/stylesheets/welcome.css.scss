@@ -94,6 +94,8 @@ a {
   #pdf_link {
     display: none;
   }
+}
+#booklet {
   p, li {
     font-size: 8px;
     line-height: 15px;
@@ -107,10 +109,10 @@ a {
       position: absolute;
       top: 230px;
       text-align: center;
-      left: 64px;
+      left: 71px;
       width: 140px;
       img {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         width: 140px;
         border-radius:10px;
         border: 2px #CCCCCC solid;
