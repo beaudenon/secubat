@@ -22,7 +22,7 @@
 en:
   layout:
     application:
-      title: "Application"
+      title: "Secubat"
   welcome:
       index:
         hello: "Hello"
