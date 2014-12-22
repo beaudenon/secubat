@@ -77,7 +77,7 @@ a {
 
 @media print {
   body {
-    background-color: #CCCC;
+    background-color: #FFFFFF;
   }
 
   #container {
@@ -93,5 +93,28 @@ a {
 
   #pdf_link {
     display: none;
+  }
+  p, li {
+    font-size: 8px;
+    line-height: 15px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  #logo_container {
+    position: relative;
+    .images_hover {
+      position: absolute;
+      top: 230px;
+      text-align: center;
+      left: 64px;
+      width: 140px;
+      img {
+        margin-bottom: 40px;
+        width: 140px;
+        border-radius:10px;
+        border: 2px #CCCCCC solid;
+      }
+    }
   }
 }

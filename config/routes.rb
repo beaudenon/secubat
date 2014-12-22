@@ -56,7 +56,7 @@ Rails.application.routes.draw do
   #   end
 
   root 'welcome#index'
-  get '/index' => 'welcome#index', as: "index"
+  get '/booklet' => 'welcome#booklet', as: "booklet"
   filter :locale
 
 end

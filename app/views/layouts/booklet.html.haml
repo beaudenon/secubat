@@ -1,0 +1,19 @@
+!!!
+%html
+  %head
+    %title=t('layout.application.title')
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true, 'i18n' => true, 'translations' => true
+    = csrf_meta_tags
+    =favicon_link_tag 'header/favicon.png'
+  %body{"data-locale" => I18n.locale}
+    %section#main_container
+      .block.push
+        #yield_container
+          .container
+            = yield
+
+
+
+
+
